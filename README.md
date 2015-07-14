@@ -28,5 +28,5 @@ Makes screens navigation easy
 
 P.S. Если в [/etc/resolv.conf](http://linux.die.net/man/5/resolv.conf) на Zabbix сервере будут указаны нужные domain и search, все записи можно сократить до:
  * http://zabbix/www1
- * http://zabbix.local/www1&nginx
- * http://zabbx.local/db1&m
+ * http://zabbix/www1&nginx
+ * http://zabbx/db1&m
