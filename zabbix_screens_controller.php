@@ -17,7 +17,7 @@ $map_shorts = array(
     'n' => 'nginx',
 );
 
-# if you have CNAMEs or a number of equal records for one hostname, http://zabbix.local/billing2 -> http://zabbix.local/bill2
+# if you have CNAMEs or a number of equal records for one hostname, http://zabbix.local/dbmail2 -> http://zabbix.local/dbm2
 $rewrites = array(
     '^dbmail' => 'dbm',
     '^exwww' => 'www',
