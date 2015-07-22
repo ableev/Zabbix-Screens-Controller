@@ -93,7 +93,6 @@ if ($debug) echo "\nResult host: " . $host;
 if (!isset($screen)) {
     foreach ($map_screens as $screen_name => $screen_full_name) {
         if (isset($_GET[$screen_name])) {
-            var_dump($screen_name);
             $screen = $screen_name;
             if ($debug) echo "\nGot full screen name: " . $screen_name;
             break;
